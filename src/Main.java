@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 
 public class Main {
+
     private static void checkLogin(String login) throws WrongLoginException {
         if (login.length() >= 20) {
             throw new WrongLoginException("Ошибка! Превышена длина логина.");
